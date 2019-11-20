@@ -1,0 +1,40 @@
+
+.carousel {
+    position: relative;
+    height: auto;
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    transition: margin-left 250ms;
+}
+.carousel .carousel-item{
+    position: relative;
+    box-sizing: border-box;
+
+}
+.arrow-carousel {
+    position: absolute;
+    top: 50px;
+    height: 24px;
+    width: 14px;
+    opacity: 0.6;
+    transition: 0.5s ease;
+}
+.arrow-carousel:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.prev-btn{
+    background: url('../img/testimonials/arrow.png') no-repeat center;
+    left: 0;
+}
+.next-btn{
+    background: url('../img/testimonials/arrow.png') no-repeat center;
+    right: 0;
+    transform: rotate(180deg);
+}
+

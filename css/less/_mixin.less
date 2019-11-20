@@ -1,0 +1,46 @@
+.flex-between-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-between{
+  display: flex;
+  justify-content: space-between;
+}
+.btn{
+  padding: 15px 32px;
+  font-size: 15px;
+  color: #fff;
+  line-height: 1;
+  transition: 400ms all;
+  &:hover{
+    cursor: pointer;
+  }
+}
+.title-line{
+  position: relative;
+  padding-bottom: 26px;
+  &:after{
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 32px);
+    content: '';
+    width: 64px;
+    height: 2px;
+    background: rgba(@btn-color, 1);
+  }
+}
+.icon-circle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(@btn-color,1);
+  border-radius: 50%;
+  color: rgba(@btn-color);
+}
+.parallax{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

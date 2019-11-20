@@ -1,0 +1,20 @@
+{
+  "name": "pitch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "buildless": "lessc css/less/main.less css/styles.css",
+    "watchless": "less-watch-compiler css/less css main.less",
+    "start": "node server.js"
+  },
+  "author": "Vlad",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^3.10.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.4.1"
+  }
+}
